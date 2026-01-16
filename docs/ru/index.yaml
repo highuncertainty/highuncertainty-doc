@@ -1,5 +1,7 @@
 title: Высокая неопределенность
-description: Сайт телеграм-канала <a href="https://t.me/highuncertainty">Высокая неопределенность</a>. Есть <a href="https://dzen.ru/highuncertainty">дзен-канал</a>
+description: Сайт телеграм-канала <a href="https://t.me/highuncertainty">Высокая неопределенность</a>.</br></br><a href="https://dzen.ru/highuncertainty">Дзен-канал</a>
 links:
   - title: About
     href: about.md
+  - title: Статьи и заметки
+    href: articles/index.yaml

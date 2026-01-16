@@ -13,11 +13,11 @@ navigation:
     leftItems:
       - text: 'Обо мне'
         type: 'link'
-        url: './ru/about.md'
-    rightItems:
-      - text: 'Обо мне'
+        url: './ru/about.html'
+      - text: 'Статьи и заметки'
         type: 'link'
-        url: './ru/about.md'
+        url: './ru/articles.html'
+    rightItems:
       - type: controls
 items:
   - name: Обо мне
