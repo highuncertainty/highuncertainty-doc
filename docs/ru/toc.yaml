@@ -13,14 +13,18 @@ navigation:
     leftItems:
       - text: 'Обо мне'
         type: 'link'
-        url: './ru/about.html'
+        url: './ru/about'
       - text: 'Статьи и заметки'
         type: 'link'
-        url: './ru/articles.html'
+        url: './ru/articles'
     rightItems:
       - type: controls
 items:
   - name: Обо мне
     href: about.md
+    labeled: true
   - name: Статьи и заметки
-    href: articles/toc.yaml
+    expanded: true
+    labeled: true
+    items:
+      - include: { mode: merge, path: ./articles/toc.yaml }
